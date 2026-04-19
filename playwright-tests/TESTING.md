@@ -3,6 +3,7 @@
 ## Instalación
 
 ```bash
+cd playwright-tests
 npm install
 npx playwright install chromium
 ```
@@ -16,6 +17,7 @@ Las pruebas iniciarán automáticamente los servidores (configurado en playwrigh
 
 ```bash
 # Todas las pruebas
+cd playwright-tests
 npm test
 
 # Con interfaz visual
@@ -62,11 +64,13 @@ Valida respuesta de error de la API.
 ## Estructura de Archivos
 
 ```
-PollClass/
+playwright-tests/
 ├── tests/
 │   └── poll.spec.js        # Suite completa (10 pruebas)
-├── playwright.config.js  # Configuración de Playwright
-└── package.json
+├── playwright.config.js   # Configuración de Playwright
+├── package.json          # Dependencias y scripts
+├── TESTING.md            # Este archivo
+└── BITACORA.md           # Bitácora agéntica
 ```
 
 ## Resultados
