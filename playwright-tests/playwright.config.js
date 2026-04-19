@@ -19,16 +19,22 @@ export default defineConfig({
   ],
   webServer: [
     {
-      command: 'cd back && bun run dev',
+      command: 'bun run dev',
       url: 'http://localhost:3000/health',
       reuseExistingServer: true,
       timeout: 120000,
+      cwd: '../back',
+      env: {
+        USE_IN_MEMORY_MONGO: 'true',
+        NODE_ENV: 'test'
+      },
     },
     {
-      command: 'cd front && npm run dev',
+      command: 'npm run dev',
       url: 'http://localhost:5173',
       reuseExistingServer: true,
       timeout: 120000,
+      cwd: '../front',
     },
   ],
 })
