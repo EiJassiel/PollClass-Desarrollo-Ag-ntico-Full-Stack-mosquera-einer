@@ -1,0 +1,20 @@
+
+> pollclass-tests@1.0.0 test
+> playwright test
+
+
+[1A[2K[WebServer] $ bun run src/server.js --watch
+
+Running 10 tests using 8 workers
+
+[1A[2K[1/10] [chromium] ΓÇ║ tests\poll.spec.js:34:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 3. Crear nueva encuesta desde dashboard
+[1A[2K[2/10] [chromium] ΓÇ║ tests\poll.spec.js:8:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 1. Landing muestra opciones de Profesor y Estudiante
+[1A[2K[3/10] [chromium] ΓÇ║ tests\poll.spec.js:72:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 5. Caso negativo: Login con credenciales incorrectas
+[1A[2K[4/10] [chromium] ΓÇ║ tests\poll.spec.js:57:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 4. Estudiante se une a encuesta con c├│digo
+[1A[2K[5/10] [chromium] ΓÇ║ tests\poll.spec.js:106:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 7. Caso negativo: Estudiante sin completar campos
+[1A[2K[6/10] [chromium] ΓÇ║ tests\poll.spec.js:85:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 6. Caso negativo: Crear encuesta sin t├¡tulo muestra error
+[1A[2K[7/10] [chromium] ΓÇ║ tests\poll.spec.js:19:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 2. Login de profesor con credenciales v├ílidas
+[1A[2K[8/10] [chromium] ΓÇ║ tests\poll.spec.js:116:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 8. Health check del backend responde
+[1A[2K[9/10] [chromium] ΓÇ║ tests\poll.spec.js:123:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 9. API login retorna token con credenciales v├ílidas
+[1A[2K[10/10] [chromium] ΓÇ║ tests\poll.spec.js:133:3 ΓÇ║ PollClass - Laboratorio 5: Suite de Pruebas E2E ΓÇ║ 10. Caso negativo: API login retorna 401 con password incorrecto
+[1A[2K  10 passed (6.4s)

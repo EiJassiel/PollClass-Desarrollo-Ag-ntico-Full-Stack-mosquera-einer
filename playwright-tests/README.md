@@ -27,13 +27,24 @@ npm test
 ```
 playwright-tests/
 ├── tests/
-│   └── poll.spec.js      # 10 pruebas E2E + API
-├── playwright.config.js # Configuración
-├── package.json         # Dependencias
-├── TESTING.md            # Documentación de pruebas
-├── BITACORA.md          # Bitácora agéntica
-└── README.md             # Este archivo
+│   └── poll.spec.js       # 10 pruebas E2E + API
+├── playwright.config.js   # Configuración
+├── package.json           # Dependencias
+├── README.md              # Este archivo
+├── TESTING.md             # Documentación de pruebas
+├── BITACORA.md            # Bitácora agéntica
+└── execution-output.txt   # Captura de ejecución
 ```
+
+## Ejecución
+
+```
+> npm test
+Running 10 tests using 8 workers
+  10 passed (6.4s)
+```
+
+Ver archivo `execution-output.txt` para la captura completa de ejecución.
 
 ## Pruebas Incluidas
 
